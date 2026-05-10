@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/saved/*.pkl
+models/exports/*
+!models/saved/.gitkeep
+!models/exports/.gitkeep
+.env
+mlflow_tracking/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
