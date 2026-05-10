@@ -81,11 +81,11 @@ Automatically trains multiple machine learning models:
 # 🛠️ Tech Stack
 
 ## Frontend
-- Streamlit / React (optional)
+- Streamlit
 
 ## Backend
 - Python
-- Flask / FastAPI
+- FastAPI
 
 ## Machine Learning
 - Scikit-learn
@@ -96,37 +96,6 @@ Automatically trains multiple machine learning models:
 ## Visualization
 - Matplotlib
 - Seaborn
-- Plotly
 
 ---
 
-# 📁 Project Structure
-
-```bash
-AutoML-Data-Analyst/
-│
-├── app/
-│   ├── main.py
-│   ├── routes.py
-│   ├── automl.py
-│   ├── preprocessing.py
-│   ├── eda.py
-│   ├── insights.py
-│   └── utils.py
-│
-├── models/
-│   └── saved_models/
-│
-├── datasets/
-│
-├── reports/
-│
-├── static/
-│
-├── templates/
-│
-├── requirements.txt
-│
-├── README.md
-│
-└── run.py
